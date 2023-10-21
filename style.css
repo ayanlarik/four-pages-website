@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    color: darkcyan;
+    
+}
+.image{
+    padding: 30px;
+    border-radius: 30%;
+    box-shadow: 2px 2px 3px;
+    margin: 20px;
+    
+}
+nav,ul,li,a{
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+}
+
+h1{
+    font-family: Verdana,  Tahoma, sans-serif;
+}
+li{
+    border: 1px solid rgb(201, 201, 201);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10%;
+    background-color: rgb(33, 33, 34);
+    box-shadow: 2px 2px 5px rgb(218, 214, 214);
+    
+    
+
+
+}
+li:hover{
+    background-color: white;
+}
+a:hover{
+    color: black;
+}
+
+li{
+    transition: 1.5s;
+    transform: scale(2s);
+    
+}
